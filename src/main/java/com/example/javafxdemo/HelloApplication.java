@@ -10,6 +10,8 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        // Calling HelloApplication.class here so we need to ensure the fxml file is in the same package as the 
+        // HelloApplication file 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 300, 275);
         stage.setTitle("Hello!");
