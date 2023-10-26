@@ -16,9 +16,7 @@
         <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
             <children>
                 <ImageView fitHeight="150.0" fitWidth="204.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../../../../../../../../Desktop/2560px-ASU_Athletics_Logo.svg.png" />
-                    </image>
+                        <Image url="@../../../../../../assets/2560px-ASU_Athletics_Logo.svg.png" />
                 </ImageView>
             </children>
         </AnchorPane>
@@ -28,7 +26,7 @@
             <children>
                 <ImageView fitHeight="118.0" fitWidth="86.0" layoutX="86.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@../../../../../../../lock.png" />
+                        <Image url="@../../../../../../assets/lock.png" />
                     </image>
                 </ImageView>
                 <Text fill="#ffc900" layoutX="32.0" layoutY="160.0" smooth="false" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
